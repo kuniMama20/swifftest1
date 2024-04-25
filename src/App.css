@@ -1,0 +1,81 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+}
+
+.rectangle{
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.oval {
+  width: 200px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.parallelogram {
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  transform: skew(20deg);
+}
+.trapezoid{
+  width: 200px; /* Width of the trapezoid */
+  height: 150px; /* Height of the trapezoid */
+  background-color: gray; /* Background color of the trapezoid */
+  transform: perspective(500px) rotateX(50deg);
+}
+.custom-button:hover {
+  background-color: #ffa200 !important;
+}
+
+.custom-shape:hover {
+  background-color: white !important;
+}
